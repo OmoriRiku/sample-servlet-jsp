@@ -1,0 +1,11 @@
+<Context reloadable="true">
+  <Resource
+    name="jdbc/sample"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="${DB_URL}"
+    username="${DB_USER}"
+    password="${DB_PASSWORD}"
+  />
+</Context>
